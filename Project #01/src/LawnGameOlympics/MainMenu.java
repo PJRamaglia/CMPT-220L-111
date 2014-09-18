@@ -4,12 +4,44 @@ package LawnGameOlympics;
  * Created by Peter J. Ramaglia on 9/16/2014.
  */
 public class MainMenu {
+
+    public static String[] eventArray = new String[5]; {
+            eventArray[0] = "Wa-Shoos";
+            eventArray[1] = "KanJam";
+            eventArray[2] = "Horseshoes";
+            eventArray[3] = "Cornhole";
+            eventArray[4] = "Ladderball";
+            eventArray[5] = "Sticks 'N Cups";
+    };
+
+    public static String[][] olympianArray = new String[][] {
+            // {"Name", "Gender", "Age"}
+            {"Thomas", "Male", "49"},
+            {"David", "Male", "31"},
+            {"James", "Male", "21"},
+            {"Joseph", "Male", "38"},
+            {"Robert", "Male", "23"},
+            {"Leonard", "Male", "46"},
+            {"Richard", "Male", "40"},
+            {"Jose", "Male", "16"},
+            {"Sarah", "Female", "17"},
+            {"Kelly", "Female", "33"},
+            {"Dana", "Female", "18"},
+            {"Cathryn", "Female", "44"},
+            {"Velma", "Female", "44"},
+            {"Jessica", "Female", "24"},
+            {"Pauline", "Female", "29"},
+            {"Emily", "Female", "22"},
+    };
+
     public static void main(String[] args) {
         System.out.println("Lawn Game Olympics");
         System.out.println("------------------");
 
-        if (args[0].equals("e")) {
-            System.out.println(Olympians.olympianArray[0][0] + " " + olympianArray[0][1] + " " + olympianArray[0][2]);
+        if (args[0].equals("events") || args[0].equals("e")) {
+
+        } else if (args[0].equals("olympians") || args[0].equals("o")) {
+            System.out.println(olympianArray[0][0] + " " + olympianArray[0][1] + " " + olympianArray[0][2]);
             System.out.println(olympianArray[1][0] + " " + olympianArray[1][1] + " " + olympianArray[1][2]);
             System.out.println(olympianArray[2][0] + " " + olympianArray[2][1] + " " + olympianArray[2][2]);
             System.out.println(olympianArray[3][0] + " " + olympianArray[3][1] + " " + olympianArray[3][2]);
@@ -25,15 +57,9 @@ public class MainMenu {
             System.out.println(olympianArray[13][0] + " " + olympianArray[13][1] + " " + olympianArray[13][2]);
             System.out.println(olympianArray[14][0] + " " + olympianArray[14][1] + " " + olympianArray[14][2]);
             System.out.println(olympianArray[15][0] + " " + olympianArray[15][1] + " " + olympianArray[15][2]);
-        } else if (args[0].equals("events")) {
 
-        } else if (args[0].equals("e")) {
+        } else if (args[0].equals("help") || args[0].equals("h")) {
 
-        } else if (args[0].equals("olympians")) {
-
-        } else if (args[0].equals("o")) {
-
-        } else if (args[0].equals("help")) {
 
         } else {
             System.out.println("That argument is not recognized.");
