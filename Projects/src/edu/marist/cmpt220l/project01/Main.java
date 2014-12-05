@@ -9,14 +9,14 @@ public class Main {
 
     public static String[][] olympianArray = new String[][] {
             // {"Name", "Gender", "Age"}
-            {"Thomas",  "Male", "49"},
-            {"David",   "Male", "31"},
-            {"James",   "Male", "21"},
-            {"Joseph",  "Male", "38"},
-            {"Robert",  "Male", "23"},
-            {"Leonard", "Male", "46"},
-            {"Richard", "Male", "40"},
-            {"Jose",    "Male", "16"},
+            {"Thomas",  "Male",   "49"},
+            {"David",   "Male",   "31"},
+            {"James",   "Male",   "21"},
+            {"Joseph",  "Male",   "38"},
+            {"Robert",  "Male",   "23"},
+            {"Leonard", "Male",   "46"},
+            {"Richard", "Male",   "40"},
+            {"Jose",    "Male",   "16"},
             {"Sarah",   "Female", "17"},
             {"Kelly",   "Female", "33"},
             {"Dana",    "Female", "18"},
@@ -31,6 +31,12 @@ public class Main {
         System.out.println("Lawn Game Olympics");
         System.out.println("------------------");
         System.out.println();
+
+        if (args.length != 1){
+            System.out.println("*** ERROR ***");
+            System.out.println("No argument was given.  Please rerun this program with the commandline argument 'h' or 'help' for assistance.");
+            return;
+        }
 
         if (args[0].equals("events") || args[0].equals("e")) {
             //Syntax: for(initialization; condition; stepping)
