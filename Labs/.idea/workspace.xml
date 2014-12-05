@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8730b46-acba-47cc-aaf0-626da7b14c9f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projects/src/edu/marist/cmpt220l/project01/Main.java" afterPath="$PROJECT_DIR$/../Projects/src/edu/marist/cmpt220l/project01/Main.java" />
-    </list>
+    <list default="true" id="e8730b46-acba-47cc-aaf0-626da7b14c9f" name="Default" comment="" />
     <ignored path="Labs.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
