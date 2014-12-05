@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8730b46-acba-47cc-aaf0-626da7b14c9f" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Peter J. Ramaglia\Documents\GitHub\CMPT-220L-111\Project #01\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter J. Ramaglia\Documents\GitHub\CMPT-220L-111\Project #01\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter J. Ramaglia\Documents\GitHub\CMPT-220L-111\Project #01\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter J. Ramaglia\Documents\GitHub\CMPT-220L-111\Project #01\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Peter J. Ramaglia\Documents\GitHub\CMPT-220L-111\Project #01\Project #01.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projects/src/edu/marist/cmpt220l/project01/Main.java" afterPath="$PROJECT_DIR$/../Projects/src/edu/marist/cmpt220l/project01/Main.java" />
     </list>
     <ignored path="Labs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -353,7 +349,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1034" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
